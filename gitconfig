@@ -12,6 +12,7 @@
     br = branch -a
     df = diff
     k = !gitk
+    look = log --graph --pretty=format:'%Cred %h : %Creset%s %Cgreen(%cr) %C(blue)<%an>%C(yellow)%d %Creset' --date=relative
 [color]
     status = auto
     branch = auto
