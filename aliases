@@ -1,0 +1,30 @@
+# Shell
+alias c='clear'
+alias l='ls -lahG'
+
+# Git
+alias gg='git gui &'
+alias gk='gitk &'
+alias gka='gitk --all &'
+alias gkw='gitk --word-diff=color &'
+alias gkaw='gitk --all --word-diff=color &'
+
+
+
+
+
+
+# ----------------------------------------------------------
+# MacOS
+# ----------------------------------------------------------
+
+# Recursively delete `.DS_Store` files
+alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.Finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.Finder AppleShowAllFiles -bool false && killall Finder"
+
+# Disable or enable Spotlight indexing.
+alias spotoff="sudo mdutil -a -i off"
+alias spoton="sudo mdutil -a -i on"

@@ -1,0 +1,3 @@
+# PATH
+# Put /usr/local/{sbin,bin} first
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH

@@ -1,0 +1,22 @@
+[core]
+    excludefile = ~/.gitignore
+    attributesfile = ~/.gitattributes
+    whitespace = fix,space-before-tab,tab-in-indent,trailing-space
+[apply]
+    whitespace = fix
+[alias]
+    st = status
+    co = checkout
+    ci = commit
+    cm = commit -m
+    br = branch -a
+    df = diff
+    k = !gitk
+[color]
+    status = auto
+    branch = auto
+    diff = auto
+    interactive = auto
+    ui = true
+    wtf = yes
+    
