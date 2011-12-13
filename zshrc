@@ -38,7 +38,7 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 
 # ---------------------------------------------------
-for file in ~/.{aliases,functions,aliases.local}; do
+for file in ~/.{aliases,functions,exports,aliases.local}; do
     [ -r "$file" ] && source "$file"
 done
 unset file
