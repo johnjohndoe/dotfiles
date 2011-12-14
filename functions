@@ -2,3 +2,9 @@
 function md() {
   mkdir -p "$@" && cd "$@"
 }
+
+# Display the mount information more nicely.
+# http://www.catonmat.net/blog/another-ten-one-liners-from-commandlinefu-explained/
+nicemount() {
+    (echo "DEVICE PATH TYPE FLAGS" && mount | awk '$2=$4="";1') | column -t;
+}
