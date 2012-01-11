@@ -8,6 +8,7 @@ alias gk='gitk &'
 alias gka='gitk --all &'
 alias gkw='gitk --word-diff=color &'
 alias gkaw='gitk --all --word-diff=color &'
+alias gf='git fetch'
 
 
 
