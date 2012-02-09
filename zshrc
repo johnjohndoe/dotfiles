@@ -36,6 +36,13 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 
+# Restrict tab completion to local files.
+# Should speed up the shell, hopefully. Was pretty slow on MacOS.
+__git_files () {
+    _wanted files expl 'local files' _files
+}
+
+
 
 # ---------------------------------------------------
 for file in ~/.{aliases,functions,exports,aliases.local}; do
