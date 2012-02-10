@@ -9,6 +9,8 @@
     co = checkout
     ci = commit
     cm = commit -m
+    ca = commit --amend
+    cn = commit --amend --no-edit
     br = branch -a
     df = diff
     k = !gitk
