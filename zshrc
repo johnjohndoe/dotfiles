@@ -31,6 +31,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
+# Language settings for git gui and gitk.
+LANG=en_US.UTF-8
+
 # PATH
 # Put /usr/local/{sbin,bin} first
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
