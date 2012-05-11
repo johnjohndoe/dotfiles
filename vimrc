@@ -29,6 +29,8 @@ set mouse=a                           " Always show mouse cursor
 set nowrap                            " Disable wrapping globally
 set number                            " Enable line numbers
 set numberwidth=5                     " Column width for line numbers
+filetype plugin on                    " Enable filetype plugin to load settings from ~/.vim/after/ftplugin/language.vim
+filetype plugin indent on             " Enable language specific indenting
 
 
 
