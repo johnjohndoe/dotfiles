@@ -58,3 +58,10 @@ function svn {
     print cpt_c, " conflicts are found.";
   }';
 }
+
+# Syntax highlighting for less.
+# Requires python-pygments.
+function pless {
+  pygmentize $1 | less -r
+}
+
