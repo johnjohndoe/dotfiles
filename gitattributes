@@ -1,2 +1,5 @@
+# Automatically normalize line endings for all text-based files
 * text=auto
+
+# Automatically merges Xcode project file when new files are added (with some luck).
 *.pbxproj merge=union
