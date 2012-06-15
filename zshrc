@@ -37,6 +37,9 @@ LANG=en_US.UTF-8
 # PATH
 # Put /usr/local/{sbin,bin} first
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+# Put homebrew first
+[[ -s /usr/local/Cellar ]] && export PATH=/usr/local/Cellar:$PATH
+
 
 # Load SVN extensions.
 [[ -s "$HOME/dotfiles/svnextensions" ]] && source "$HOME/dotfiles/svnextensions"
