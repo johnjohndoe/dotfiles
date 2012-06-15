@@ -55,3 +55,6 @@ for file in ~/.{aliases,functions,exports,aliases.local}; do
     [ -r "$file" ] && source "$file"
 done
 unset file
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
