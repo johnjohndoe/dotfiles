@@ -38,6 +38,9 @@ LANG=en_US.UTF-8
 # Put /usr/local/{sbin,bin} first
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
+# Load SVN extensions.
+[[ -s "$HOME/dotfiles/svnextensions" ]] && source "$HOME/dotfiles/svnextensions"
+
 
 # Restrict tab completion to local files.
 # Should speed up the shell, hopefully. Was pretty slow on MacOS.
