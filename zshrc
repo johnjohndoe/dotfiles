@@ -46,7 +46,7 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 
 # Load SVN extensions.
-[[ -s "$HOME/dotfiles/svnextensions" ]] && source "$HOME/dotfiles/svnextensions"
+[[ -s "$HOME/dotfiles/svnextensions" ]] && . "$HOME/dotfiles/svnextensions"
 
 
 # Restrict tab completion to local files.
@@ -55,6 +55,8 @@ __git_files () {
     _wanted files expl 'local files' _files
 }
 
+# Test existense of local environment settings and load them.
+[[ -s "$HOME/.environment.local" ]] && . "$HOME/.environment.local"
 
 
 # ---------------------------------------------------
@@ -64,4 +66,6 @@ done
 unset file
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# Test existense of RVM and load RVM into a shell session.
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
