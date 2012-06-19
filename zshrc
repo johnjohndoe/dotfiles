@@ -31,6 +31,10 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
+# Useful function should be loaded first of all!
+[[ -s "$HOME/dotfiles/essentials" ]] && . "$HOME/dotfiles/essentials"
+
+
 # Language settings for git gui and gitk.
 LANG=en_US.UTF-8
 

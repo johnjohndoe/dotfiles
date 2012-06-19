@@ -1,0 +1,9 @@
+# This file should be included top most in the shell rc file.
+
+
+# Returns true if the command passed in exists.
+# Otherwise false.
+# Example: if command_exists vim; then echo "hello"; fi
+command_exists() {
+  command -v "$1" > /dev/null 2>&1;
+}
