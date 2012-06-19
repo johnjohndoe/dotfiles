@@ -61,7 +61,13 @@ function svn {
 
 # Syntax highlighting for less.
 # Requires python-pygments.
-function pless {
-  pygmentize $1 | less -r
-}
+if command_exists pygmentize; then
+  function pless {
+    if [ -n "$1" ]; then
+      pygmentize "$1" | less -r
+    else
+      echo "Usage: $0 argument."
+    fi
+  }
+fi
 
