@@ -12,6 +12,13 @@ nicemount() {
 # SVN color
 # Source: http://stackoverflow.com/questions/8786400/svn-add-colors-on-command-line-svn-with-awk-in-bash
 function svn {
+  # Skip any subversion command that has more then one argument.
+  # Such commands mostly open an editor, e.g. svn propedit.
+  if [ $# -gt  1 ]
+  then
+    echo "Subversion command with more then one argument. Skipping color script."
+    command svn "$@";
+  fi
   # Skip the color script when running an svn commit.
   if [ "x$1" = "xci" ] || [ "x$1" =  "xcommit" ] || [ "x$1" = "xadd" ] || [ "x$1" = "xblame" ] || [ "x$1" = "xpropedit" ]
   then
