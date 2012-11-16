@@ -9,6 +9,14 @@ alias gka='gitk --all &'
 alias gkw='gitk --word-diff=color &'
 alias gkaw='gitk --all --word-diff=color &'
 alias gf='git fetch'
+alias gs='git status'
+alias s='git status --short'
+alias gau='git add --update'
+alias grm='git rebase master'
+
+# SVN
+alias ss='svn st'
+alias sup='svn up'
 
 
 
@@ -29,3 +37,4 @@ alias hide="defaults write com.apple.Finder AppleShowAllFiles -bool false && kil
 # Disable or enable Spotlight indexing.
 alias spotoff="sudo mdutil -a -i off"
 alias spoton="sudo mdutil -a -i on"
+
