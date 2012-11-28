@@ -7,12 +7,16 @@
     whitespace = warn
 [alias]
     st = status
+    sh = stash
+    sp = stash pop
     co = checkout
     ci = commit
     cm = commit -m
     ca = commit --amend
     cn = commit --amend --no-edit
     br = branch -a
+    ri = rebase -i
+    ri10 = rebase -i HEAD~10
     df = diff
     k = !gitk
     last = log -1
