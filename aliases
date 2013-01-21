@@ -31,6 +31,10 @@ alias sagu='sudo apt-get update'
 alias saar='sudo apt-add-repository'
 
 
+# Rake
+alias rdm='rake db:migrate'
+alias rds='rake db:migrate:status'
+alias rd0='rake db:migrate VERSION=0'
 
 
 
