@@ -35,7 +35,9 @@ alias saar='sudo apt-add-repository'
 alias rdm='rake db:migrate'
 alias rds='rake db:migrate:status'
 alias rd0='rake db:migrate VERSION=0'
-
+alias rdd='rake db:drop'
+alias rde='rake db:seed'
+alias rdp='rake db:test:prepare'
 
 
 # ----------------------------------------------------------
