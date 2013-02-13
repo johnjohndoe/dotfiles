@@ -5,7 +5,7 @@ alias l='ls -lahG'
 # Git
 alias gg='git gui &'
 alias gk='gitk &'
-alias gka='gitk --all &'
+alias gka='gitk --all > /dev/null 2>&1 &'
 alias gkw='gitk --word-diff=color &'
 alias gkaw='gitk --all --word-diff=color &'
 alias gf='git fetch'
