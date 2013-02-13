@@ -75,3 +75,6 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Local aliases and scripts.
 [[ -s "$HOME/.aliases.local" ]] && . "$HOME/.aliases.local"
+
+# Completion for git-flow.
+[[ -s "$HOME/.git-flow-completion.zsh" ]] && . "$HOME/.git-flow-completion.zsh"
