@@ -54,10 +54,6 @@ __git_files () {
     _wanted files expl 'local files' _files
 }
 
-# Test existense of local environment settings and load them.
-[[ -s "$HOME/.environment.local" ]] && . "$HOME/.environment.local"
-
-
 # ---------------------------------------------------
 for file in ~/.{aliases,functions,exports,aliases.local}; do
     [ -r "$file" ] && source "$file"
@@ -71,6 +67,9 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Local PATHs and environment variables.
 [[ -s "$HOME/.exports.local" ]] && . "$HOME/.exports.local"
+
+# Test existense of local environment settings and load them.
+[[ -s "$HOME/.environment.local" ]] && . "$HOME/.environment.local"
 
 # Local aliases and scripts.
 [[ -s "$HOME/.aliases.local" ]] && . "$HOME/.aliases.local"
