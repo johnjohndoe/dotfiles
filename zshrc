@@ -55,7 +55,7 @@ __git_files () {
 }
 
 # ---------------------------------------------------
-for file in ~/.{aliases,functions,exports,aliases.local}; do
+for file in ~/.{aliases,functions,exports,environment}; do
     [ -r "$file" ] && source "$file"
 done
 unset file
