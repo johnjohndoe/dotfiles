@@ -39,6 +39,8 @@ alias rdd='rake db:drop'
 alias rde='rake db:seed'
 alias rdp='rake db:test:prepare'
 
+# adb
+alias ad='adb devices'
 
 # ----------------------------------------------------------
 # MacOS
