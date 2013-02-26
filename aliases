@@ -17,6 +17,7 @@ alias gpom='git push origin master'
 alias gst='git status'
 alias gsh='git stash'
 alias gsp='git stash pop'
+alias gsl='git stash list'
 
 # SVN
 alias ss='svn st'
