@@ -1,0 +1,3 @@
+# Language settings for git gui and gitk.
+export LANG="en_US.UTF-8"
+

@@ -34,8 +34,6 @@ source $ZSH/oh-my-zsh.sh
 [[ -s "$HOME/dotfiles/essentials" ]] && . "$HOME/dotfiles/essentials"
 
 
-# Language settings for git gui and gitk.
-LANG=en_US.UTF-8
 
 # PATH
 # Put /usr/local/{sbin,bin} first
