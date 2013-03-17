@@ -1,3 +1,6 @@
 # Language settings for git gui and gitk.
 export LANG="en_US.UTF-8"
 
+# Less is more. Avoid screen cleaning.
+export PAGER="less -X"
+
