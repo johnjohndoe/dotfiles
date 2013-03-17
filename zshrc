@@ -76,3 +76,6 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Completion for git-flow.
 [[ -s "$HOME/.git-flow-completion.zsh" ]] && . "$HOME/.git-flow-completion.zsh"
+
+# Custom credentials.
+[[ -s "$HOME/.credentials.local" ]] && . "$HOME/.credentials.local"
