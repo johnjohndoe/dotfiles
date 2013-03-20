@@ -20,6 +20,7 @@ alias gst='git status'
 alias gsh='git stash'
 alias gsp='git stash pop'
 alias gsl='git stash list'
+alias gsc='git stash clear'
 
 # SVN
 alias ss='svn st'
