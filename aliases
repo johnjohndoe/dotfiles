@@ -53,6 +53,10 @@ alias rdp='rake db:test:prepare'
 # adb
 alias ad='adb devices'
 
+# Maven
+alias mci='mvn clean install'
+alias mdr='mvn clean install android:deploy android:run'
+
 # ----------------------------------------------------------
 # MacOS
 # ----------------------------------------------------------
