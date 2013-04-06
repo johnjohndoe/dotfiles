@@ -53,7 +53,7 @@ __git_files () {
 }
 
 # ---------------------------------------------------
-for file in ~/.{aliases,functions,exports,environment}; do
+for file in ~/.{functions,exports,environment}; do
     [ -r "$file" ] && source "$file"
 done
 unset file
@@ -71,6 +71,9 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Local aliases and scripts.
 [[ -s "$HOME/.aliases.local" ]] && . "$HOME/.aliases.local"
+
+# Local aliases and scripts.
+[[ -s "$HOME/.aliases" ]] && . "$HOME/.aliases"
 
 # Completion for git-flow.
 [[ -s "$HOME/.git-flow-completion.zsh" ]] && . "$HOME/.git-flow-completion.zsh"

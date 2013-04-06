@@ -78,3 +78,8 @@ if command_exists pygmentize; then
   }
 fi
 
+
+# Load 'colorize maven' script if present.
+[[ -s "$HOME/scripts/colorize-maven/colorize-maven.sh" ]] && . "$HOME/scripts/colorize-maven/colorize-maven.sh"
+
+
