@@ -30,3 +30,5 @@
     ui = true
     wtf = yes
     
+[branch]
+	autosetuprebase = always
