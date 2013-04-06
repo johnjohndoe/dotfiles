@@ -55,7 +55,9 @@ alias ad='adb devices'
 
 # Maven
 alias mci='mvn clean install'
+alias mcin='mvn -Dmaven.test.skip=true clean install'
 alias mdr='mvn clean install android:deploy android:run'
+alias mdrn='mvn -Dmaven.test.skip=true clean install android:deploy android:run'
 
 # ----------------------------------------------------------
 # MacOS
