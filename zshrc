@@ -75,6 +75,9 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 # Local aliases and scripts.
 [[ -s "$HOME/.aliases" ]] && . "$HOME/.aliases"
 
+# Local Android aliases.
+[[ -s "$HOME/.android-aliases" ]] && . "$HOME/.android-aliases"
+
 # Completion for git-flow.
 [[ -s "$HOME/.git-flow-completion.zsh" ]] && . "$HOME/.git-flow-completion.zsh"
 

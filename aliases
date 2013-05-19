@@ -53,9 +53,6 @@ alias rdd='rake db:drop'
 alias rde='rake db:seed'
 alias rdp='rake db:test:prepare'
 
-# adb
-alias ad='adb devices'
-
 # Maven
 # color_maven can be found here: https://gist.github.com/johnjohndoe/5337476
 if command_exists color_maven; then
