@@ -3,6 +3,9 @@
     attributesfile = ~/.gitattributes
     whitespace = fix,space-before-tab,-tab-in-indent,trailing-space
     trustctime = false # Ignore ctime differences.
+    autocrlf = input
+    safecrlf = warn
+    eol = lf
 [apply]
     whitespace = warn
 [alias]
