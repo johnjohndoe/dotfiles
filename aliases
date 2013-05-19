@@ -1,6 +1,7 @@
 # Shell
 alias c='clear'
 alias l='ls -lahG'
+alias ld='ls -dl */'
 
 # Git
 alias gg='git gui &'
