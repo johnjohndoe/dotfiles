@@ -58,13 +58,15 @@ alias rdp='rake db:test:prepare'
 if command_exists color_maven; then
   alias mci='color_maven clean install'
   alias mcin='color_maven -Dmaven.test.skip=true clean install'
-  alias mdr='color_maven clean install android:deploy android:run'
-  alias mdrn='color_maven -Dmaven.test.skip=true clean install android:deploy android:run'
+  alias mdr='color_maven android:deploy android:run'
+  alias mcidr='color_maven clean install android:deploy android:run'
+  alias mcidrn='color_maven -Dmaven.test.skip=true clean install android:deploy android:run'
 else
   alias mci='mvn clean install'
   alias mcin='mvn -Dmaven.test.skip=true clean install'
-  alias mdr='mvn clean install android:deploy android:run'
-  alias mdrn='mvn -Dmaven.test.skip=true clean install android:deploy android:run'
+  alias mdr='mvn android:deploy android:run'
+  alias mcidr='mvn clean install android:deploy android:run'
+  alias mcidrn='mvn -Dmaven.test.skip=true clean install android:deploy android:run'
 fi
 
 # ----------------------------------------------------------
