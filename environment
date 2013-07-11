@@ -1,2 +1,5 @@
+# Default text editor
+export EDITOR=vim
+
 # Subversion
 export SVN_EDITOR=vim
