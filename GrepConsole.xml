@@ -8,6 +8,7 @@
           <option name="grepExpressionItems">
             <list>
               <GrepExpressionItem>
+                <option name="caseInsensitive" value="true" />
                 <option name="grepExpression" value=".*Successfully.*" />
                 <option name="id" value="bc3d87e7-3a7a-4079-b4cc-75595f22f3ff" />
                 <option name="style">
