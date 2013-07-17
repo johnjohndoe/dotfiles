@@ -2,3 +2,4 @@
 --ignore-dir=libs
 --ignore-dir=target
 --ignore-dir=gen-external-apklibs
+--ignore-dir=.idea
