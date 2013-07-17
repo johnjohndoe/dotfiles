@@ -25,6 +25,7 @@
     last = log -1
     look = log --graph --pretty=format:'%Cred %h : %Creset%s %Cgreen(%cr) %C(blue)<%an>%C(yellow)%d %Creset' --date=relative
     l10k = log --graph --pretty=format:'%Cred %h : %Creset%s %Cgreen(%cr) %C(blue)<%an>%C(yellow)%d %Creset' --date=relative -10
+    authors = shortlog -s -e -n
 [color]
     status = auto
     branch = auto
