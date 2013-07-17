@@ -1,7 +1,7 @@
 [core]
     excludesfile = ~/.gitignore
     attributesfile = ~/.gitattributes
-    whitespace = fix,space-before-tab,-tab-in-indent,trailing-space
+    whitespace = fix,trailing-space,-space-before-tab
     trustctime = false # Ignore ctime differences.
     autocrlf = input
     safecrlf = warn
