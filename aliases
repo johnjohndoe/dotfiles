@@ -55,6 +55,9 @@ alias rdd='rake db:drop'
 alias rde='rake db:seed'
 alias rdp='rake db:test:prepare'
 
+# alias
+alias zrj='zeus rake jasmine'
+
 # Maven
 # color_maven can be found here: https://gist.github.com/johnjohndoe/5337476
 if command_exists color_maven; then
