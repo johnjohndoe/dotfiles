@@ -9,6 +9,21 @@ nicemount() {
     (echo "DEVICE PATH TYPE FLAGS" && mount | awk '$2=$4="";1') | column -t;
 }
 
+# Extract pages from PDF file via Ghostscript.
+# Sourche: http://sandeepsidhu.wordpress.com/2010/12/11/extract-pages-from-a-pdf-file-in-ubuntu-10-10/
+function pdf-extract() {
+  # this function uses 3 arguments:
+  # $1 is the first page of the range to extract
+  # $2 is the last page of the range to extract
+  # $3 is the input file
+  # output file will be named "inputfile_pXX-pYY.pdf"
+  ghostscript -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER \
+  -dFirstPage=${1} \
+  -dLastPage=${2} \
+  -sOutputFile=${3%.pdf}_page${1}_to_page${2}.pdf \
+  ${3}
+}
+
 # SVN color
 # Source: http://stackoverflow.com/questions/8786400/svn-add-colors-on-command-line-svn-with-awk-in-bash
 function svn {
