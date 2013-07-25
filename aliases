@@ -44,6 +44,8 @@ alias sagi='sudo apt-get install'
 alias sagu='sudo apt-get update'
 alias saar='sudo apt-add-repository'
 
+# RVM
+alias rvm-uninstall-gems='gem list | cut -d" " -f1 | xargs gem uninstall -aIx'
 
 # Rake
 alias rdm='rake db:migrate'
