@@ -7,3 +7,6 @@ export LC_PAPER="en_GB.UTF-8"
 # Less is more. Avoid screen cleaning.
 export PAGER="less -X"
 
+# Gradle
+export GRADLE_HOME=/usr/bin/gradle
+
