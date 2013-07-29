@@ -30,6 +30,10 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
+# Load completions.
+# Source: https://github.com/zsh-users/zsh-completions/
+fpath=($HOME/zsh-completions/src $fpath)
+
 # Useful function should be loaded first of all!
 [[ -s "$HOME/dotfiles/essentials" ]] && . "$HOME/dotfiles/essentials"
 
