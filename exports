@@ -1,6 +1,9 @@
 # Language settings for git gui and gitk.
 export LANG="en_US.UTF-8"
 
+# Affects the default paper size for printing.
+export LC_PAPER="en_GB.UTF-8"
+
 # Less is more. Avoid screen cleaning.
 export PAGER="less -X"
 
