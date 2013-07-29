@@ -87,3 +87,7 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Custom credentials.
 [[ -s "$HOME/.credentials.local" ]] && . "$HOME/.credentials.local"
+
+# Python virtualenvwrapper.
+# Depends on `WORKON_HOME` being set before. See exports.
+[[ -s "/usr/local/bin/virtualenvwrapper.sh" ]] && . "/usr/local/bin/virtualenvwrapper.sh"

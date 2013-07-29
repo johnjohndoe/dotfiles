@@ -10,3 +10,5 @@ export PAGER="less -X"
 # Gradle
 export GRADLE_HOME=/usr/bin/gradle
 
+# Python virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
