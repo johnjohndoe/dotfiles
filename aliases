@@ -31,8 +31,10 @@ alias gsh='git stash'
 alias gsp='git stash pop'
 alias gsl='git stash list'
 alias gsc='git stash clear'
+alias gsk='git stash -k'
 alias gbm='git branch -m'
 alias gbd='git branch -d'
+alias gbr='git branch -a'
 
 # SVN
 alias ss='svn st'
