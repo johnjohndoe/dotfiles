@@ -4,6 +4,7 @@ alias l='ls -lahG'
 alias ld='ls -dl */'
 alias z='. ~/.zshrc'
 alias omz='cd ~/.oh-my-zsh'
+alias mkdd='mkdir $(date +%Y%m%d)' # Create folder named by current date.
 
 # Git
 alias gg='git gui &'
