@@ -26,6 +26,7 @@
     look = log --graph --pretty=format:'%Cred %h : %Creset%s %Cgreen(%cr) %C(blue)<%an>%C(yellow)%d %Creset' --date=relative
     l10k = log --graph --pretty=format:'%Cred %h : %Creset%s %Cgreen(%cr) %C(blue)<%an>%C(yellow)%d %Creset' --date=relative -10
     authors = shortlog -s -e -n
+    count = rev-list HEAD --count # Returns the commit count
 [color]
     status = auto
     branch = auto
