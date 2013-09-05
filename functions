@@ -3,6 +3,12 @@ function md() {
   mkdir -p "$@" && cd "$@"
 }
 
+# gitignore.io / Generate useful .gitignore files for your project
+# http://gitignore.io/cli
+function gi() {
+    curl http://gitignore.io/api/$@ ;
+}
+
 # Display the mount information more nicely.
 # http://www.catonmat.net/blog/another-ten-one-liners-from-commandlinefu-explained/
 nicemount() {
