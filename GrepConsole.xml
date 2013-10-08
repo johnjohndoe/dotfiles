@@ -57,11 +57,17 @@
                 </option>
               </GrepExpressionItem>
               <GrepExpressionItem>
-                <option name="grepExpression" value="^\[ERROR\] " />
-                <option name="id" value="8a0f687e-0247-4719-97ce-967de6dc8d11" />
+                <option name="grepExpression" value=".*(Enabling debug build for apk.)$" />
+                <option name="id" value="93a37462-82c4-41fc-9681-8b1d06ec5a0d" />
                 <option name="style">
                   <GrepStyle>
-                    <option name="id" value="44af3b2f-afeb-45ae-987a-206df54eb2fd" />
+                    <option name="foregroundColor">
+                      <GrepColor>
+                        <option name="color" value="-23682" />
+                        <option name="enabled" value="true" />
+                      </GrepColor>
+                    </option>
+                    <option name="id" value="deb2fa59-dc73-4601-9a49-10e740ed122d" />
                   </GrepStyle>
                 </option>
               </GrepExpressionItem>
@@ -291,6 +297,15 @@
                       </GrepColor>
                     </option>
                     <option name="id" value="deb2fa59-dc73-4601-9a49-10e740ed122d" />
+                  </GrepStyle>
+                </option>
+              </GrepExpressionItem>
+              <GrepExpressionItem>
+                <option name="grepExpression" value="^\[ERROR\] " />
+                <option name="id" value="8a0f687e-0247-4719-97ce-967de6dc8d11" />
+                <option name="style">
+                  <GrepStyle>
+                    <option name="id" value="44af3b2f-afeb-45ae-987a-206df54eb2fd" />
                   </GrepStyle>
                 </option>
               </GrepExpressionItem>
