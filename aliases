@@ -76,12 +76,16 @@ if command_exists color_maven; then
   alias mdr='color_maven android:deploy android:run'
   alias mcidr='color_maven clean install android:deploy android:run'
   alias mcidrn='color_maven -Dmaven.test.skip=true clean install android:deploy android:run'
+  alias mcv='color_maven clean verify'
+  alias mrc='color_maven release:clean'
 else
   alias mci='mvn clean install'
   alias mcin='mvn -Dmaven.test.skip=true clean install'
   alias mdr='mvn android:deploy android:run'
   alias mcidr='mvn clean install android:deploy android:run'
   alias mcidrn='mvn -Dmaven.test.skip=true clean install android:deploy android:run'
+  alias mcv='mvn clean verify'
+  alias mrc='mvn release:clean'
 fi
 
 # ----------------------------------------------------------
