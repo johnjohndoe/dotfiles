@@ -89,6 +89,11 @@ else
   alias mrc='mvn release:clean'
 fi
 
+
+# Gradle
+alias gucid='gradle uninstallDebug clean installDebug'
+alias guid='gradle uninstallDebug installDebug'
+
 # ----------------------------------------------------------
 # MacOS
 # ----------------------------------------------------------
