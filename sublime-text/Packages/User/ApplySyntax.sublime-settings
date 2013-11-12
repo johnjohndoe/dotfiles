@@ -1,0 +1,13 @@
+// User settings are appended to Installed Packages/ApplySyntax.sublime-package/ApplySyntax.sublime-settings
+{
+    "reraise_exceptions": false,
+    "new_file_syntax": false,
+    "syntaxes": [
+        {
+            "name": "Groovy",
+            "rules": [
+                {"file_name": ".*\\.gradle$"},
+            ]
+        }
+    ]
+}
