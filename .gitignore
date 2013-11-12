@@ -1,0 +1,4 @@
+# Sublime-Text
+!*.sublime-*
+Package Control.cache
+Package Control.last-run
