@@ -8,6 +8,12 @@
             "rules": [
                 {"file_name": ".*\\.gradle$"},
             ]
+        },
+        {
+            "name": "Makefile",
+            "rules": [
+                {"file_name": ".*\\.env$"},
+            ]
         }
     ]
 }
