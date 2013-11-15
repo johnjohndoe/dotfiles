@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
-		"ApplySyntax"
+		"ApplySyntax",
+		"SideBarEnhancements"
 	]
 }
