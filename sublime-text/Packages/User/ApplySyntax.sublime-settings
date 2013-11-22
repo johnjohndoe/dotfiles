@@ -13,6 +13,7 @@
             "name": "Makefile",
             "rules": [
                 {"file_name": ".*\\.env$"},
+                {"file_name": ".*gitignore$"},
             ]
         },
         {
