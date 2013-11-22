@@ -14,6 +14,12 @@
             "rules": [
                 {"file_name": ".*\\.env$"},
             ]
+        },
+        {
+            "name": "Ruby",
+            "rules": [
+                {"file_name": ".*\\proguard.*(txt|cfg)"},
+            ]
         }
     ]
 }
