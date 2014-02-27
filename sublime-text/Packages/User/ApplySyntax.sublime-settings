@@ -4,20 +4,20 @@
     "new_file_syntax": false,
     "syntaxes": [
         {
-            "name": "Groovy",
+            "name": "Groovy/Groovy",
             "rules": [
                 {"file_name": ".*\\.gradle$"},
             ]
         },
         {
-            "name": "Makefile",
+            "name": "Makefile/Makefile",
             "rules": [
                 {"file_name": ".*\\.env$"},
                 {"file_name": ".*gitignore$"},
             ]
         },
         {
-            "name": "Ruby",
+            "name": "Ruby/Ruby",
             "rules": [
                 {"file_name": ".*\\proguard.*(txt|cfg)"},
             ]
