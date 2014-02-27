@@ -20,6 +20,7 @@
             "name": "Ruby/Ruby",
             "rules": [
                 {"file_name": ".*\\proguard.*(txt|cfg)"},
+                {"file_name": ".*Android.mk$"},
             ]
         }
     ]
