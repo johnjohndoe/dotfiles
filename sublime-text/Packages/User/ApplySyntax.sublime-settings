@@ -29,6 +29,12 @@
                 {"file_name": ".*Android.mk$"},
                 {"file_name": ".*\\.json.rabl$"},
             ]
-        }
+        },
+        {
+            "name": "XML/XML",
+            "rules": [
+                {"file_name": ".*\\.gml$"},
+            ]
+        },
     ]
 }
