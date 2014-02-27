@@ -43,7 +43,7 @@ alias gsc='git stash clear'
 alias gsk='git stash -k'
 alias gbm='git branch -m'
 alias gbd='git branch -d'
-alias gbr='git branch -a'
+alias gbr='git branch -a -vv'
 
 # SVN
 alias ss='svn st'
