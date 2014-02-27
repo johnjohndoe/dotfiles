@@ -1,4 +1,26 @@
 {
+	"binary_file_patterns":
+	[
+		"*.class",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.iml",
+		"*.ipr",
+		"*.dex",
+		"*.ap_",
+		"R.java"
+	],
 	"close_windows_when_empty": true,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
