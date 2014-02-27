@@ -21,6 +21,7 @@
             "rules": [
                 {"file_name": ".*\\proguard.*(txt|cfg)"},
                 {"file_name": ".*Android.mk$"},
+                {"file_name": ".*\\.json.rabl$"},
             ]
         }
     ]
