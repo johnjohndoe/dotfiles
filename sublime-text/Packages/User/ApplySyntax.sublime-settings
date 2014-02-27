@@ -4,6 +4,12 @@
     "new_file_syntax": false,
     "syntaxes": [
         {
+            "name": "HTML/HTML",
+            "rules": [
+                {"file_name": ".*\\.jst.ejs$"},
+            ]
+        },
+        {
             "name": "Groovy/Groovy",
             "rules": [
                 {"file_name": ".*\\.gradle$"},
