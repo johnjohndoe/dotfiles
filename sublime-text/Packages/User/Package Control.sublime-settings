@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"ApplySyntax",
+		"Indent XML",
 		"SCSS",
 		"SideBarEnhancements"
 	]
