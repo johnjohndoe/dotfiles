@@ -1,3 +1,6 @@
+# Enable support for 256 colors as used by scripts such as "colorize-maven".
+export TERM="xterm-256color"
+
 # Language settings for git gui and gitk.
 export LANG="en_US.UTF-8"
 
