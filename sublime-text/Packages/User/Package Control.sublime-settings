@@ -2,8 +2,13 @@
 	"installed_packages":
 	[
 		"ApplySyntax",
+		"colorbrewer-theme",
 		"Indent XML",
 		"SCSS",
 		"SideBarEnhancements"
+	],
+	"repositories":
+	[
+		"https://github.com/mbostock/colorbrewer-theme"
 	]
 }
