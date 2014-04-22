@@ -5,6 +5,7 @@ alias ld='ls -dl */'
 alias z='. ~/.zshrc'
 alias omz='cd ~/.oh-my-zsh'
 alias mkdd='mkdir $(date +%Y%m%d)' # Create folder named by current date.
+alias of='nautilus .' # Open current folder in Nautilus
 
 # Git
 alias gg='git gui &'
