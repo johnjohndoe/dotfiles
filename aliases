@@ -72,6 +72,13 @@ alias rdp='rake db:test:prepare'
 # Zeus
 alias zrj='zeus rake jasmine'
 alias zts='zeus test spec'
+alias zrdm='zeus rake db:migrate'
+alias zrds='zeus rake db:migrate:status'
+alias zrd0='zeus rake db:migrate VERSION=0'
+alias zrdd='zeus rake db:drop'
+alias zrde='zeus rake db:seed'
+alias zrdp='zeus rake db:test:prepare'
+
 
 # Maven
 # color_maven can be found here: https://gist.github.com/johnjohndoe/5337476
