@@ -120,3 +120,5 @@ alias hide="defaults write com.apple.Finder AppleShowAllFiles -bool false && kil
 alias spotoff="sudo mdutil -a -i off"
 alias spoton="sudo mdutil -a -i on"
 
+# Pretty JSON
+alias jsonlint='python -mjson.tool'
