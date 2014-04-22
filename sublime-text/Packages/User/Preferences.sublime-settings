@@ -55,7 +55,9 @@
 		".git",
 		"tmp",
 		".zeus.sock",
-		"__pycache__"
+		"__pycache__",
+		".idea",
+		"vendor/assets"
 	],
 	"font_size": 10,
 	"hot_exit": false,
