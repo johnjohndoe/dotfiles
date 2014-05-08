@@ -1,0 +1,2 @@
+# Enable auto-update
+rvm_autoupdate_flag=2
