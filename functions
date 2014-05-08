@@ -104,3 +104,15 @@ fi
 [[ -s "$HOME/scripts/colorize-maven/colorize-maven.sh" ]] && . "$HOME/scripts/colorize-maven/colorize-maven.sh"
 
 
+
+# Display authors of a remote SVN repository
+# Source: https://github.com/nirvdrum/svn2git
+function svnauthors {
+  if [ $# -eq 0 ]; then
+    echo "Usage: $0 SVN_REPOSITORY_URL"
+  else
+    echo "Retrieving authors from $1 ..."
+    svn log --quiet "$1" | grep -E "r[0-9]+ \| .+ \|" | cut -d'|' -f2 | sed 's/^ //' | sort | uniq
+  fi
+}
+
