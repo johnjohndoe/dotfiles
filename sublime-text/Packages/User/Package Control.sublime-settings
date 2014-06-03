@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"ApplySyntax",
 		"colorbrewer-theme",
 		"Github Color Theme",
