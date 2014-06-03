@@ -1,25 +1,22 @@
-// User settings are appended to Installed Packages/ApplySyntax.sublime-package/ApplySyntax.sublime-settings
 {
-    "reraise_exceptions": false,
-    "new_file_syntax": false,
     "syntaxes": [
         {
             "name": "HTML/HTML",
             "rules": [
-                {"file_name": ".*\\.jst.ejs$"},
+                {"file_name": ".*\\.jst.ejs$"}
             ]
         },
         {
             "name": "Groovy/Groovy",
             "rules": [
-                {"file_name": ".*\\.gradle$"},
+                {"file_name": ".*\\.gradle$"}
             ]
         },
         {
             "name": "Makefile/Makefile",
             "rules": [
                 {"file_name": ".*\\.env$"},
-                {"file_name": ".*gitignore$"},
+                {"file_name": ".*gitignore$"}
             ]
         },
         {
@@ -27,14 +24,14 @@
             "rules": [
                 {"file_name": ".*\\proguard.*(txt|cfg)"},
                 {"file_name": ".*Android.mk$"},
-                {"file_name": ".*\\.json.rabl$"},
+                {"file_name": ".*\\.json.rabl$"}
             ]
         },
         {
             "name": "XML/XML",
             "rules": [
-                {"file_name": ".*\\.gml$"},
+                {"file_name": ".*\\.gml$"}
             ]
-        },
+        }
     ]
 }

@@ -16,7 +16,6 @@
 	],
 	"repositories":
 	[
-		"https://github.com/facelessuser/ApplySyntax",
 		"https://github.com/mbostock/colorbrewer-theme",
 		"https://github.com/billymoon/LoremIpsum"
 	]
