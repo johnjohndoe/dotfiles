@@ -109,6 +109,7 @@ fi
 
 
 # Gradle
+alias gw='./gradlew'
 alias gucid='gradle uninstallDebug clean installDebug'
 alias guid='gradle uninstallDebug installDebug'
 
