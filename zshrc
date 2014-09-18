@@ -64,28 +64,28 @@ unset file
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-# Test existense of RVM and load RVM into a shell session.
+# Test existence of RVM and load RVM into a shell session.
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
-# Local PATHs and environment variables.
+# Test existence of local exports and load them.
 [[ -s "$HOME/.exports.local" ]] && . "$HOME/.exports.local"
 
-# Test existense of local environment settings and load them.
+# Test existence of local environment settings and load them.
 [[ -s "$HOME/.environment.local" ]] && . "$HOME/.environment.local"
 
-# Test existense of paths settings and load them.
+# Test existence of paths settings and load them.
 [[ -s "$HOME/.paths" ]] && . "$HOME/.paths"
 
 # Test existence of local paths settings and load them.
 [[ -s "$HOME/.paths.local" ]] && . "$HOME/.paths.local"
 
-# Local aliases and scripts.
+# Test existence of local aliases and load them.
 [[ -s "$HOME/.aliases.local" ]] && . "$HOME/.aliases.local"
 
-# Local aliases and scripts.
+# Test existence of aliases and load them.
 [[ -s "$HOME/.aliases" ]] && . "$HOME/.aliases"
 
-# Local Android aliases.
+# Text existence of local Android aliases and load them.
 [[ -s "$HOME/.android-aliases" ]] && . "$HOME/.android-aliases"
 
 # Completion for git-flow.
