@@ -67,6 +67,9 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 # Test existence of RVM and load RVM into a shell session.
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
+# Test existence of exports and load them.
+[[ -s "$HOME/.exports" ]] && . "$HOME/.exports"
+
 # Test existence of local exports and load them.
 [[ -s "$HOME/.exports.local" ]] && . "$HOME/.exports.local"
 
