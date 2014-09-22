@@ -9,7 +9,8 @@
         {
             "name": "Groovy/Groovy",
             "rules": [
-                {"file_name": ".*\\.gradle$"}
+                {"file_name": ".*\\.gradle$"},
+                {"file_name": "gradle.properties$"}
             ]
         },
         {
