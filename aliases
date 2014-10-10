@@ -10,6 +10,10 @@ alias release-infos='lsb_release -a' # Print release information
 alias bios-version='sudo dmidecode -s bios-version' # Print BIOS version
 alias bios-date='sudo dmidecode -s bios-release-date' # Print BIOS date
 
+
+alias o2='ogr2ogr'
+
+
 # Git
 alias gg='git gui &'
 alias gk='gitk &'
