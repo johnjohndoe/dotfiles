@@ -1,0 +1,5 @@
+# Reference: http://guides.rubygems.org/command-reference
+
+# Avoid installing documentation files
+install: --no-document
+update: --no-document
