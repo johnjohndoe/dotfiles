@@ -24,7 +24,7 @@ ZSH_THEME="simple"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx svn rvm ruby rails brew bundler gem rake heroku java maven mvn gradle ant adb pip python zeus npm cap guardi go golang ant gpg virtualenvi docker)
+plugins=(git osx svn rvm ruby rails brew bundler gem rake heroku java maven mvn gradle ant adb pip python zeus npm cap guardi go golang ant gpg virtualenvi docker nvm npm bower)
 
 source $ZSH/oh-my-zsh.sh
 
