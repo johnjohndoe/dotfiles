@@ -1,0 +1,11 @@
+-- Transform SQL keywords to upper case on TAB press.
+\set COMP_KEYWORD_CASE upper
+
+-- Expanded display.
+-- Automatically switch table layout to
+-- key-value layout if there is not enough space.
+\x auto
+
+-- Render NULL values as [NULL].
+\pset null '[NULL]'
+
