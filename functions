@@ -116,3 +116,20 @@ function svnauthors {
   fi
 }
 
+
+# Display a neatly formatted path
+path() {
+local blue="\033[1;34m"
+local green="\033[0;32m"
+local cyan="\033[0;36m"
+local purple="\033[0;35m"
+local brown="\033[0;33m"
+local reset_color="\033[0m"
+  echo $PATH | tr ":" "\n" | \
+    awk "{ sub(\"/usr\",   \"$green/usr$reset_color\"); \
+           sub(\"/bin\",   \"$blue/bin$reset_color\"); \
+           sub(\"/opt\",   \"$cyan/opt$reset_color\"); \
+           sub(\"/sbin\",  \"$purple/sbin$reset_color\"); \
+           sub(\"/local\", \"$brown/local$reset_color\"); \
+           print }"
+}
