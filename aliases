@@ -1,5 +1,6 @@
 # Shell
 alias c='clear'
+alias -- -='cd -'
 alias l='ls -lahG'
 alias ld='ls -dl */'
 alias z='. ~/.zshrc'
