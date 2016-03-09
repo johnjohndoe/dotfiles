@@ -31,6 +31,7 @@
     loox = log --graph --pretty=format:'%Cred %h : %Creset%s %Cgreen(%cr) %C(blue)<%an>%C(yellow)%d %Creset' --date=relative -10
     authors = shortlog -s -e -n
     count = rev-list HEAD --count # Returns the commit count
+
 [color]
     status = auto
     branch = auto
@@ -38,7 +39,27 @@
     interactive = auto
     ui = true
     wtf = yes
-    
+[color "diff"]
+	meta = yellow bold
+	commit = green bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = "red bold 52"
+	newNormal = "green bold"
+	newHighlight = "green bold 22"
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+
 [branch]
 	autosetuprebase = always
 [push]
