@@ -15,3 +15,8 @@ export GRADLE_HOME=/usr/bin/gradle
 
 # Python virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
+
+# Android emulator
+# https://code.google.com/p/android/issues/detail?id=197254#c15
+ANDROID_EMULATOR_USE_SYSTEM_LIBS=1
+
