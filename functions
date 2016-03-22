@@ -117,6 +117,16 @@ function svnauthors {
 }
 
 
+# Deletes local and remote branch.
+# Fails if local branch is not merged.
+function gpDo() {
+  git branch -d "$1" && git push --delete origin "$1"
+}
+# Auto-completion, preload Git and its functions
+_git 2>/dev/null
+compdef __git_branch_names gpDo
+
+
 # Display a neatly formatted path
 path() {
 local blue="\033[1;34m"
