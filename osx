@@ -21,6 +21,10 @@ defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
 # Show all filename extensions in Finder
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
+# Show all files (hidden) in Finder
+# Run after: killall Finder
+defaults write com.apple.finder AppleShowAllFiles YES
+
 # Disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
