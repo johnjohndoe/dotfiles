@@ -61,6 +61,7 @@ alias gsu='git stash -u'
 alias gbm='git branch -m'
 alias gbd='git branch -d'
 alias gbr='git branch -a -vv'
+alias gsmu="git submodule update"
 
 # SVN
 alias ss='svn st'
