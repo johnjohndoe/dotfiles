@@ -19,6 +19,7 @@
     cn = commit --amend --no-edit
     br = branch -a
     ri = rebase -i
+    ria = rebase -i --autosquash
     # Roman letter V indicates 5
     riv = rebase -i HEAD~5
     # Roman letter X indicates 10
