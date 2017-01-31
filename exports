@@ -20,3 +20,7 @@ export WORKON_HOME=$HOME/.virtualenvs
 # https://code.google.com/p/android/issues/detail?id=197254#c15
 ANDROID_EMULATOR_USE_SYSTEM_LIBS=1
 
+# Android Hierarchy Viewer
+# https://developer.android.com/studio/profile/hierarchy-viewer-setup.html
+export ANDROID_HVPROTO=ddm
+
