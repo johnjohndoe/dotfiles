@@ -64,6 +64,7 @@ alias gbm='git branch -m'
 alias gbd='git branch -d'
 alias gbr='git branch -a -vv'
 alias gsmu="git submodule update"
+alias gdh="git diff HEAD"
 
 # SVN
 alias ss='svn st'
