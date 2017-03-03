@@ -4,3 +4,6 @@ PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 # Python installations with --user need this
 PATH=$PATH:$HOME/.local/bin
 
+# ~/bin
+PATH=$HOME/bin:$PATH
+
