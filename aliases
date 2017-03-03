@@ -129,6 +129,11 @@ alias gw='./gradlew'
 alias gucid='gradle uninstallDebug clean installDebug'
 alias guid='gradle uninstallDebug installDebug'
 
+# https://github.com/johnjohndoe/gradle-each
+if command_exists ~/scripts/gradle-each/gradle-each.sh; then
+  alias ge='~/scripts/gradle-each/gradle-each.sh'
+fi
+
 # ----------------------------------------------------------
 # MacOS
 # ----------------------------------------------------------
