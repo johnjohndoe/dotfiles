@@ -24,7 +24,7 @@ ZSH_THEME="simple"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx svn rvm ruby rails brew bundler gem rake heroku java maven mvn gradle ant adb pip python zeus npm cap guardi go golang ant gpg virtualenvi docker nvm npm bower colored-man-pages)
+plugins=(zsh-completions git osx svn rvm ruby rails brew bundler gem rake heroku java maven mvn gradle ant adb pip python zeus npm cap guardi go golang ant gpg virtualenvi docker nvm npm bower colored-man-pages)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -34,6 +34,9 @@ source $ZSH/oh-my-zsh.sh
 # Source: https://github.com/zsh-users/zsh-completions/
 [[ -s "$HOME/zsh-completions/src" ]] && fpath=($HOME/zsh-completions/src $fpath)
 [[ -s "/usr/local/share/zsh-completions" ]] && fpath=(/usr/local/share/zsh-completions $fpath)
+
+# Init zsh-completions in ~/.oh-my-zsh/custom/plugins/zsh-completions
+autoload -U compinit && compinit
 
 # Useful function should be loaded first of all!
 [[ -s "$HOME/dotfiles/essentials" ]] && . "$HOME/dotfiles/essentials"
