@@ -159,3 +159,37 @@ screenshot() {
   curr_dir=pwd
   echo "save to `pwd`/$name"
 }
+
+# Takes a screenshot from the connected Android device.
+# Works with devices running Android Nougat or before and after.
+# Based on: http://www.stkent.com/2016/08/28/capturing-Nougat-screenshots-using-adb-shell.html
+screencapture() {
+
+  if [ $# -ne 1 ];
+  then
+    echo "Usage:\n\t$0 filename"
+    return 0
+  fi
+
+  name="$1.png"
+  nougat=24
+
+  sdkCommand=`adb shell getprop ro.build.version.sdk`
+  # Remove trailing line break.
+  sdkVersion=$(echo $sdkCommand|tr -d '\r')
+  if [[ "$sdkVersion" -ge "$nougat" ]];
+  then
+    runsAtLeastNougat=true
+  else
+    runsAtLeastNougat=false
+  fi
+
+  if [ "$runsAtLeastNougat" = true ];
+  then
+    adb shell screencap -p > $name
+  else
+    adb shell screencap -p | perl -pe 's/\x0D\x0A/\x0A/g' > $name
+  fi
+
+  echo "Saved to `pwd`/$name"
+}
