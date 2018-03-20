@@ -11,7 +11,9 @@
 [alias]
     st = status
     sh = stash
-    sp = stash pop
+    sp = !sh -c 'git stash pop stash@{${1-0}}' -
+    ss = !sh -c 'git stash show stash@{${1-0}} -p --no-prefix' -
+    sd = !sh -c 'git stash drop stash@{${1-0}}' -
     co = checkout
     ci = commit
     cm = commit -m
