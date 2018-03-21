@@ -1,3 +1,6 @@
+# MacOS
+.DS_Store
+
 # Sublime-Text
 !*.sublime-*
 Package Control.cache
