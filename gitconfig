@@ -22,6 +22,8 @@
     br = branch -a
     ri = rebase -i
     ria = rebase -i --autosquash
+    riad = rebase -i --autosquash develop
+    riam = rebase -i --autosquash master
     # Roman letter V indicates 5
     riv = rebase -i HEAD~5
     # Roman letter X indicates 10
