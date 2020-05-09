@@ -4,6 +4,10 @@ export TERM="xterm-256color"
 # Language settings for git gui and gitk.
 export LANG="en_US.UTF-8"
 
+# Android Studio 3 Canary "invalid dimen" bug
+# https://stackoverflow.com/questions/44196672/aapt2-compile-failed-invalid-dimen-on-android-3-0-canary-1
+LC_NUMERIC="en_US.UTF-8"
+
 # Affects the default paper size for printing.
 export LC_PAPER="en_GB.UTF-8"
 
