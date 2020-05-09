@@ -1,5 +1,5 @@
 # Android tools such as emulator, android, adb, ddms, ..
-PATH=$PATH:$ANDROID_HOME/tools/:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+PATH=$ANDROID_HOME/tools/:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
 
 # Python installations with --user need this
 PATH=$PATH:$HOME/.local/bin
