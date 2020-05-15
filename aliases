@@ -71,6 +71,7 @@ alias gbm='git branch -m'
 alias gbd='git branch -d'
 alias gbr='git branch -a -vv'
 alias gsmu="git submodule update"
+alias gd="git diff"
 alias gdh="git diff HEAD"
 
 # Pidcat
