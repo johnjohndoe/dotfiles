@@ -1,8 +1,0 @@
-[
-    {
-        "command": "prompt_open_folder",
-        "keys": [
-            "ctrl+shift+o"
-        ]
-    }
-]
