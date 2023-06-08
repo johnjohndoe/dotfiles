@@ -76,7 +76,7 @@ alias gd="git diff"
 alias gdh="git diff HEAD"
 
 # Pidcat
-alias pidcat='python ~/scripts/pidcat/pidcat.py'
+alias pidcat='python2 ~/scripts/pidcat/pidcat.py'
 
 # SVN
 alias ss='svn st'
