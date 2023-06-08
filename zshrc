@@ -80,10 +80,10 @@ export PATH=$PATH:$HOME/.rvm/bin
 # Test existence of local environment settings and load them.
 [[ -s "$HOME/.environment.local" ]] && . "$HOME/.environment.local"
 
-# Test existence of paths settings and load them.
+# Test existence of paths and load them.
 [[ -s "$HOME/.paths" ]] && . "$HOME/.paths"
 
-# Test existence of local paths settings and load them.
+# Test existence of local paths and load them.
 [[ -s "$HOME/.paths.local" ]] && . "$HOME/.paths.local"
 
 # Test existence of local aliases and load them.
