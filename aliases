@@ -71,6 +71,7 @@ alias gsk='git stash -k'
 alias gsu='git stash -u'
 alias gbm='git branch -m'
 alias gbd='git branch -d'
+alias gbD='git branch -D'
 alias gbr='git branch -a -vv'
 alias gsmu="git submodule update"
 alias gd="git diff"
