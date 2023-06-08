@@ -6,6 +6,7 @@
     autocrlf = input
     safecrlf = warn
     eol = lf
+    editor = vim
 [apply]
     whitespace = warn
 [alias]
