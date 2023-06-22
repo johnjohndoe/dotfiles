@@ -1,3 +1,4 @@
 # adb
 alias ad='adb devices'
+alias air='adb install -r'
 
