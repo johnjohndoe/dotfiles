@@ -1,4 +1,6 @@
 .kotlin/errors/*.log
+*.salive
+*/**/.kotlin/errors/errors*.log
 
 # -------------------------------------------------------------------
 # MacOS
