@@ -78,3 +78,5 @@
 [diff]
 	compactionHeuristic = true
 	context = 4
+[pull]
+	rebase = true
